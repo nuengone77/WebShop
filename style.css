@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: orange;
+}
+
+p {
+    background-color:aqua;
+}
+
+a:link, a:visited{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color: red;
+}
+
+table{
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
