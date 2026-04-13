@@ -1,7 +1,15 @@
-h1 {
-    text-align: center;
-    margin: 20px;
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.head {
     color: orange;
+    background-color: brown;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 5px 10px;
+
 }
 
 p {
