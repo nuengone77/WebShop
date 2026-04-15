@@ -5,18 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <style>
-        h1 {text-align: center;}
-        body {background-color: aquamarine;}
-        a{color: white;
+        body {
+            background-color: rgb(225, 151, 90);
+        }
+        #home {
+            color: white;
         background-color: red;
         padding: 15px 25px;
         text-align: center;
         display: inline-block;
-        text-decoration: none;}
+        text-decoration: none;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box-login {
+            background-color: rgb(230, 179, 136);
+            align-items: center;
+            padding: 30px 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            
+        }
+        label {
+            align-self: flex-start;
+        }
+        input {
+            background-color: rgb(255, 179, 99);
+            border: 2px solid rgb(255, 220, 177);
+            border-radius: 5px;
+            padding: 5%;
+            outline: none;
+        }
+        #Forgot {
+            align-self: flex-start;
+            color: #000;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Login</h1>
-    <a href="index.html">Home</a>
+    <a id="home" href="index.html">Home</a>
+    <div class="container">
+        <div class="box-login">
+        <h2 id="head">Login</h2>
+        <label for="email">Email</label><br>
+        <input type="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password"><br>
+        <a id="Forgot" href="#">Forgot Password?</a><br>
+       
+    </div>
+    </div>
+    
 </body>
 </html>
